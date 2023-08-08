@@ -1,0 +1,7 @@
+﻿@using TeamManager.Web.Models.SkillType;
+@model SkillTypeListViewModel
+
+@foreach (var skill in Model.SkillTypes)
+{
+    <p>@skill.Name</p>
+}
